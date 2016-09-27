@@ -1,0 +1,71 @@
+.d_mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .4;
+	z-index: 1;
+}
+.d_bouningbox{
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	z-index: 2;
+	background: #fff;
+	border-radius: 5px;
+}
+/*.d_bouningbox .d_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: gray;
+	cursor: move;
+	border-radius: 5px 5px 0 0;
+}*/
+/*.d_bouningbox .d_closeBtn{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: blue;
+	text-align: center;
+	line-height: 30px;
+	font-size: 24px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	border-radius: 0 5px 0 0;
+}*/
+.d_bouningbox .d_content{
+	margin: 50px 0 80px;
+	padding:0 10%;
+	color: #f00;
+	font-size: 24px;
+	text-align: center;
+}
+.d_bouningbox .d_content input[type="text"]{
+	width: 80%;
+         height: 36px;
+         border: 1px solid pink;
+         font-size: 20px;
+}
+.d_bouningbox .d_footer{
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	text-align: center;
+}
+.d_bouningbox .d_footer .d_btn{
+	background-color: rgb(174, 222, 244);
+	color: #fff;
+	border-radius: 5px;
+	border: 0;
+	font-size: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+.d_bouningbox .d_footer .d_btn:nth-of-type(2){
+	margin-left: 50px;
+}
